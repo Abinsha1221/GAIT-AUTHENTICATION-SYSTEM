@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Final Year Project</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0F172A;
+      color: #F8FAFC;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background-color: #1E293B;
+    }
+
+    button {
+      background-color: #38BDF8;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    #about {
+      display: none;
+      padding: 2rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    h2, h3 {
+      color: #38BDF8;
+    }
+
+    h3 {
+      color: #22D3EE;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Our Final Year Project</h1>
+    <button onclick="showAbout()">About Our Team</button>
+  </header>
+
+  <!-- Hidden About Section -->
+  <section id="about">
+    <h2>About Our Project</h2>
+    <p>
+      We are a group of final year students from the <strong>College of Engineering, Attingal</strong>,
+      currently studying in the <strong>7th semester of Artificial Intelligence and Machine Learning (AI&ML)</strong>.
+      This project represents the culmination of our academic journey, integrating the knowledge and skills we've developed throughout our course.
+    </p>
+
+    <h3>Team Members</h3>
+    <ul>
+      <li>🔹 Fayasjan</li>
+      <li>🔹 Hema</li>
+      <li>🔹 Lejin</li>
+      <li>🔹 Abinsha</li>
+    </ul>
+
+    <p>
+      We are passionate about building innovative solutions using AI and ML technologies and are excited to contribute to the field through this project.
+    </p>
+  </section>
+
+  <script>
+    function showAbout() {
+      document.getElementById('about').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>

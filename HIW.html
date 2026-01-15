@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Final Year Project</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0F172A;
+      color: #F8FAFC;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background-color: #1E293B;
+    }
+
+    button {
+      background-color: #38BDF8;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    #about {
+      display: none;
+      padding: 4rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    h2, h3 {
+      color: #38BDF8;
+    }
+
+    h3 {
+      color: #22D3EE;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Our Final Year Project</h1>
+    <button onclick="showAbout()">HOW IT WORKS</button>
+  </header>
+
+  <!-- Hidden About Section -->
+  <section id="about">
+    <h2>How It Works</h2>
+    
+    <p>Now that you have an account, here's how GaitAuth works to authenticate you using your unique walking pattern:</p>
+    <ol>
+      <li><strong>Gait Video Capture</strong>: When you sign in, you will be prompted to upload a short video of yourself walking. This video captures your unique gait characteristics.</li>
+      <li><strong>Feature Extraction</strong>: Advanced algorithms analyze the video to extract key features of your gait, such as stride length, walking speed, and joint movements.</li>
+      <li><strong>Gait Pattern Matching</strong>: The extracted features are compared against the gait pattern stored in our secure database during your registration.</li>
+      <li><strong>Authentication Decision</strong>: If the gait features match closely with your stored pattern, the user is authenticated; otherwise, access is denied or additional verification is requested.</li>
+    </ol>
+  </section>
+  <script>
+    function showAbout() {
+      document.getElementById('about').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
