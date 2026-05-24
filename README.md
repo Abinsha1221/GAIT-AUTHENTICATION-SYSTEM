@@ -17,3 +17,26 @@ The system identifies and authenticates users based on their walking patterns us
 - Responsive frontend using HTML, CSS, and JavaScript
 - Flask backend integration
 - Secure user gait data handling
+
+## Tech Stack
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+
+### Backend
+- Flask
+- Flask-CORS
+
+### AI/ML & Computer Vision
+- TensorFlow
+- MediaPipe
+- OpenCV
+- Scikit-learn
+- NumPy
+
+### Tools
+- Git & GitHub
+- VS Code
+- Ngrok
