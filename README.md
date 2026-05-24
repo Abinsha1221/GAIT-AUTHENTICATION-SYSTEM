@@ -1,6 +1,6 @@
 # GAIT-AUTHENTICATION-SYSTEM
 
-AI-powered gait authentication system using pose estimation and deep learning.
+AI-powered gait authentication system using pose estimation and machine learning.
 
 ## Overview
 
